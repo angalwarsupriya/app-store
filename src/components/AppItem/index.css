@@ -1,0 +1,23 @@
+.item-con {
+  height: 200px;
+  width: 200px;
+  list-style-type: none;
+  margin-bottom: 0px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: azure;
+}
+.app-img {
+  height: 80px;
+}
+@media screen and (max-width: 767px) {
+  .item-con {
+    margin: 5px;
+    height: 150px;
+    width: 120px;
+  }
+}
